@@ -1,0 +1,118 @@
+/* External CSS style file */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  background: #e9f7ef; 
+}
+
+/* Header (div) formatting */
+.header {
+  padding: 10px;
+  text-align: center;
+  background-color: #28a745; 
+  color: #ffffff; 
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/*  the logo have a rounded edge */
+img.top-image {
+  vertical-align: middle;
+}
+
+/*  top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: transparent; /* Transparent navigation bar */
+  display: flex;
+  align-items: center;
+}
+
+/* topnav links */
+.topnav a {
+  float: none;
+  display: block;
+  color: #0c0a0a; 
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #1e7e34; 
+  color: #ffffff;
+}
+
+/*  active link */
+.topnav a.active {
+  color: #08632c; 
+  font-weight: bold;
+}
+
+/*  content */
+.content {
+  background-color: #c3e6cb;
+  padding: 20px; 
+  border-radius: 5px; 
+}
+
+/*  footer */
+.footer {
+  background-color: #000000; 
+  color: #ffffff; 
+  padding: 10px;
+  text-align: center; 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; 
+  background-color: #ffffff; 
+  border-radius: 5px; /* Rounded corners */
+}
+
+table, th, td {
+  border: 1px solid #28a745; 
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  color: #000000;
+}
+
+th {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+td {
+  background-color: #f8f9fa;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #28a745; /* Green buttons */
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease;
+
+.btn:hover {
+  background-color: #218838; 
+}
+}
